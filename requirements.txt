@@ -1,0 +1,10 @@
+transformers==4.37.2
+torch==2.2.0
+onnx==1.15.0
+onnxruntime==1.17.0
+onnxruntime-tools==1.7.0
+pandas==2.2.0
+scikit-learn==1.4.0
+matplotlib==3.8.3
+pyarrow==15.0.0
+mediapipe==0.10.9
