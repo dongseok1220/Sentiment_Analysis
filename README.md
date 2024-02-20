@@ -236,7 +236,7 @@ You have to download the saved_model folder from this [link](https://drive.googl
     surprise: 0.1631
     disgust: 0.1710
     ```
-3. `python main.py --model_name ensemble --model_task classification --eval True`  
+3. `python main.py --model_name ensemble --model_task classification --eval`  
     예측이 틀린 경우 원본 텍스트를 출력한다. 
     ```
     Default type is ONNX !

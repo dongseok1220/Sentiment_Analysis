@@ -29,7 +29,7 @@ def main():
     parser.add_argument('--model_type', type=str, help='모델 유형 (tflite, onnx, huggingface)')
     parser.add_argument('--model_name', type=str, required=True, help='모델 이름')
     parser.add_argument('--model_task', type=str, required=True, help='모델 작업')
-    parser.add_argument('--eval', type=bool, help='모델 평가')
+    parser.add_argument('--eval', action='store_true', help='모델 평가')
 
     args = parser.parse_args()
 
